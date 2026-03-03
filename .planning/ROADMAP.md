@@ -147,7 +147,7 @@ Note: Phases 3, 4, 5, and 6 all depend on Phase 2 (navbar/layout) but are otherw
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/2 | Not started | - |
+| 1. Foundation | 1/2 | In Progress|  |
 | 2. Navigation & Layout | 0/TBD | Not started | - |
 | 3. Home Page | 0/TBD | Not started | - |
 | 4. Instructions Page | 0/TBD | Not started | - |
