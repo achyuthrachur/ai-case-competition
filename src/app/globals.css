@@ -2,36 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: 0 0% 100%;
-  --foreground: 222.2 84% 4.9%;
+@layer base {
+  :root {
+    --background: 225 33% 98%;
+    --foreground: 228 20% 22%;
+    --card: 225 50% 99%;
+    --card-foreground: 228 20% 22%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 228 20% 22%;
+    --primary: 215 98% 13%;
+    --primary-foreground: 225 33% 97%;
+    --secondary: 39 100% 48%;
+    --secondary-foreground: 215 98% 13%;
+    --muted: 225 20% 96%;
+    --muted-foreground: 228 10% 37%;
+    --accent: 39 100% 48%;
+    --accent-foreground: 215 98% 13%;
+    --destructive: 341 79% 56%;
+    --destructive-foreground: 225 33% 97%;
+    --border: 226 17% 89%;
+    --input: 226 17% 89%;
+    --ring: 215 100% 19%;
+    --radius: 0.75rem;
 
-  --card: 0 0% 100%;
-  --card-foreground: 222.2 84% 4.9%;
-
-  --popover: 0 0% 100%;
-  --popover-foreground: 222.2 84% 4.9%;
-
-  --primary: 222.2 47.4% 11.2%;
-  --primary-foreground: 210 40% 98%;
-
-  --secondary: 210 40% 96.1%;
-  --secondary-foreground: 222.2 47.4% 11.2%;
-
-  --muted: 210 40% 96.1%;
-  --muted-foreground: 215.4 16.3% 46.9%;
-
-  --accent: 210 40% 96.1%;
-  --accent-foreground: 222.2 47.4% 11.2%;
-
-  --destructive: 0 84.2% 60.2%;
-  --destructive-foreground: 210 40% 98%;
-
-  --border: 214.3 31.8% 91.4%;
-  --input: 214.3 31.8% 91.4%;
-  --ring: 222.2 84% 4.9%;
-
-  --radius: 0.5rem;
+    /* Font tokens — fallback stack (no .woff2 available) */
+    --font-display: Arial, 'Helvetica Neue', Helvetica, system-ui, sans-serif;
+    --font-body: Arial, 'Helvetica Neue', Helvetica, system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+  }
 }
 
 .dark {
