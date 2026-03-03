@@ -1,93 +1,18 @@
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
-  darkMode: ['class'],
-  content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
-  ],
-  prefix: '',
+  content: ['./src/**/*.{ts,tsx}'],
   theme: {
-    container: {
-      center: true,
-      padding: '2rem',
-      screens: {
-        '2xl': '1400px',
-      },
-    },
     extend: {
       colors: {
-        border: 'hsl(var(--border))',
-        input: 'hsl(var(--input))',
-        ring: 'hsl(var(--ring))',
-        background: 'hsl(var(--background))',
-        foreground: 'hsl(var(--foreground))',
-        primary: {
-          DEFAULT: 'hsl(var(--primary))',
-          foreground: 'hsl(var(--primary-foreground))',
-        },
-        secondary: {
-          DEFAULT: 'hsl(var(--secondary))',
-          foreground: 'hsl(var(--secondary-foreground))',
-        },
-        destructive: {
-          DEFAULT: 'hsl(var(--destructive))',
-          foreground: 'hsl(var(--destructive-foreground))',
-        },
-        muted: {
-          DEFAULT: 'hsl(var(--muted))',
-          foreground: 'hsl(var(--muted-foreground))',
-        },
-        accent: {
-          DEFAULT: 'hsl(var(--accent))',
-          foreground: 'hsl(var(--accent-foreground))',
-        },
-        popover: {
-          DEFAULT: 'hsl(var(--popover))',
-          foreground: 'hsl(var(--popover-foreground))',
-        },
-        card: {
-          DEFAULT: 'hsl(var(--card))',
-          foreground: 'hsl(var(--card-foreground))',
-        },
         crowe: {
-          amber: {
-            bright: '#FFD231',
-            DEFAULT: '#F5A800',
-            dark: '#D7761D',
-          },
-          indigo: {
-            bright: '#003F9F',
-            DEFAULT: '#002E62',
-            dark: '#011E41',
-          },
-          teal: {
-            bright: '#16D9BC',
-            DEFAULT: '#05AB8C',
-            dark: '#0C7876',
-          },
-          cyan: {
-            light: '#8FE1FF',
-            DEFAULT: '#54C0E8',
-            dark: '#007DA3',
-          },
-          blue: {
-            light: '#32A8FD',
-            DEFAULT: '#0075C9',
-            dark: '#0050AD',
-          },
-          violet: {
-            bright: '#EA80FF',
-            DEFAULT: '#B14FC5',
-            dark: '#612080',
-          },
-          coral: {
-            bright: '#FF526F',
-            DEFAULT: '#E5376B',
-            dark: '#992A5C',
-          },
+          amber: { bright: '#FFD231', DEFAULT: '#F5A800', dark: '#D7761D' },
+          indigo: { bright: '#003F9F', DEFAULT: '#002E62', dark: '#011E41' },
+          teal: { bright: '#16D9BC', DEFAULT: '#05AB8C', dark: '#0C7876' },
+          cyan: { light: '#8FE1FF', DEFAULT: '#54C0E8', dark: '#007DA3' },
+          blue: { light: '#32A8FD', DEFAULT: '#0075C9', dark: '#0050AD' },
+          violet: { bright: '#EA80FF', DEFAULT: '#B14FC5', dark: '#612080' },
+          coral: { bright: '#FF526F', DEFAULT: '#E5376B', dark: '#992A5C' },
         },
         tint: {
           950: '#1a1d2b',
@@ -99,11 +24,6 @@ const config: Config = {
           100: '#eef0f4',
           50: '#f6f7fa',
         },
-      },
-      borderRadius: {
-        lg: 'var(--radius)',
-        md: 'calc(var(--radius) - 2px)',
-        sm: 'calc(var(--radius) - 4px)',
       },
       fontFamily: {
         display: ['Helvetica Now Display', 'Helvetica Neue', 'Arial', 'system-ui', 'sans-serif'],
@@ -126,23 +46,9 @@ const config: Config = {
         'section-warm': '#f0f2f8',
         'section-amber': '#fff8eb',
       },
-      keyframes: {
-        'accordion-down': {
-          from: { height: '0' },
-          to: { height: 'var(--radix-accordion-content-height)' },
-        },
-        'accordion-up': {
-          from: { height: 'var(--radix-accordion-content-height)' },
-          to: { height: '0' },
-        },
-      },
-      animation: {
-        'accordion-down': 'accordion-down 0.2s ease-out',
-        'accordion-up': 'accordion-up 0.2s ease-out',
-      },
     },
   },
-  plugins: [require('tailwindcss-animate')],
+  plugins: [],
 };
 
 export default config;
