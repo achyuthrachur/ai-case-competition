@@ -127,17 +127,53 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| FOUND-01–05 | Phase 1 | Pending |
-| NAV-01–04 | Phase 2 | Pending |
-| HOME-01–04 | Phase 2 | Pending |
-| INST-01–05 | Phase 3 | Pending |
-| RUB-01–03 | Phase 3 | Pending |
-| DL-01–04 | Phase 3 | Pending |
-| STATIC-01–02 | Phase 3 | Pending |
-| DATA-01–04 | Phase 4 | Pending |
-| API-01–06 | Phase 5 | Pending |
-| SUB-01–07 | Phase 6 | Pending |
-| DEPLOY-01–03 | Phase 7 | Pending |
+| FOUND-01 | Phase 1: Foundation | Pending |
+| FOUND-02 | Phase 1: Foundation | Pending |
+| FOUND-03 | Phase 1: Foundation | Pending |
+| FOUND-04 | Phase 1: Foundation | Pending |
+| FOUND-05 | Phase 1: Foundation | Pending |
+| NAV-01 | Phase 2: Navigation & Layout | Pending |
+| NAV-02 | Phase 2: Navigation & Layout | Pending |
+| NAV-03 | Phase 2: Navigation & Layout | Pending |
+| NAV-04 | Phase 2: Navigation & Layout | Pending |
+| HOME-01 | Phase 3: Home Page | Pending |
+| HOME-02 | Phase 3: Home Page | Pending |
+| HOME-03 | Phase 3: Home Page | Pending |
+| HOME-04 | Phase 3: Home Page | Pending |
+| INST-01 | Phase 4: Instructions Page | Pending |
+| INST-02 | Phase 4: Instructions Page | Pending |
+| INST-03 | Phase 4: Instructions Page | Pending |
+| INST-04 | Phase 4: Instructions Page | Pending |
+| INST-05 | Phase 4: Instructions Page | Pending |
+| RUB-01 | Phase 5: Rubric Page | Pending |
+| RUB-02 | Phase 5: Rubric Page | Pending |
+| RUB-03 | Phase 5: Rubric Page | Pending |
+| DL-01 | Phase 6: Downloads Page + Static Files | Pending |
+| DL-02 | Phase 6: Downloads Page + Static Files | Pending |
+| DL-03 | Phase 6: Downloads Page + Static Files | Pending |
+| DL-04 | Phase 6: Downloads Page + Static Files | Pending |
+| STATIC-01 | Phase 6: Downloads Page + Static Files | Pending |
+| STATIC-02 | Phase 6: Downloads Page + Static Files | Pending |
+| DATA-01 | Phase 7: Dataset Generation | Pending |
+| DATA-02 | Phase 7: Dataset Generation | Pending |
+| DATA-03 | Phase 7: Dataset Generation | Pending |
+| DATA-04 | Phase 7: Dataset Generation | Pending |
+| API-01 | Phase 8: API Route | Pending |
+| API-02 | Phase 8: API Route | Pending |
+| API-03 | Phase 8: API Route | Pending |
+| API-04 | Phase 8: API Route | Pending |
+| API-05 | Phase 8: API Route | Pending |
+| API-06 | Phase 8: API Route | Pending |
+| SUB-01 | Phase 9: Submission Form | Pending |
+| SUB-02 | Phase 9: Submission Form | Pending |
+| SUB-03 | Phase 9: Submission Form | Pending |
+| SUB-04 | Phase 9: Submission Form | Pending |
+| SUB-05 | Phase 9: Submission Form | Pending |
+| SUB-06 | Phase 9: Submission Form | Pending |
+| SUB-07 | Phase 9: Submission Form | Pending |
+| DEPLOY-01 | Phase 10: Deployment & Docs | Pending |
+| DEPLOY-02 | Phase 10: Deployment & Docs | Pending |
+| DEPLOY-03 | Phase 10: Deployment & Docs | Pending |
 
 **Coverage:**
 - v1 requirements: 41 total
@@ -146,4 +182,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-03-03*
-*Last updated: 2026-03-03 after initial definition*
+*Last updated: 2026-03-03 — traceability updated after roadmap creation (10 phases)*
