@@ -2,10 +2,10 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: executing
-stopped_at: Completed 04-instructions-page-02-PLAN.md — awaiting human-verify checkpoint
-last_updated: "2026-03-04T16:47:15.575Z"
-last_activity: 2026-03-04 — Phase 2 Plan 01 complete — Vitest + React Testing Library test infrastructure installed; 9 failing Navbar tests written (TDD RED state)
+status: planning
+stopped_at: Phase 5 context gathered
+last_updated: "2026-03-04T17:50:47.007Z"
+last_activity: 2026-03-04 — Phase 4 complete — InstructionsPage implemented as pure Server Component with full case brief content; all INST-01..05 tests passing
 progress:
   total_phases: 10
   completed_phases: 4
@@ -21,14 +21,14 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-03)
 
 **Core value:** Participants can find everything they need — instructions, dataset, rubric — and submit their work in one place without friction.
-**Current focus:** Phase 2 — Navigation Layout
+**Current focus:** Phase 5 — Rubric Page
 
 ## Current Position
 
-Phase: 2 of 10 (Navigation Layout)
-Plan: 1 of 3 in current phase
-Status: Executing
-Last activity: 2026-03-04 — Phase 2 Plan 01 complete — Vitest + React Testing Library test infrastructure installed; 9 failing Navbar tests written (TDD RED state)
+Phase: 5 of 10 (Rubric Page)
+Plan: 0 of 2 in current phase
+Status: Ready to plan
+Last activity: 2026-03-04 — Phase 4 complete — InstructionsPage implemented as pure Server Component with full case brief content; all INST-01..05 tests passing
 
 Progress: [███░░░░░░░] 30%
 
@@ -59,6 +59,7 @@ Progress: [███░░░░░░░] 30%
 | Phase 03-home-page P02 | 5 | 2 tasks | 1 files |
 | Phase 04-instructions-page P01 | 3 | 1 tasks | 1 files |
 | Phase 04-instructions-page P02 | 7 | 1 tasks | 1 files |
+| Phase 04-instructions-page P02 | 7 | 2 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -92,6 +93,7 @@ Recent decisions affecting current work:
 - [Phase 04-instructions-page]: No mocks needed: InstructionsPage is a pure Server Component with no hooks, router, animations, or icons
 - [Phase 04-instructions-page]: Guidance callout test asserts DOM text 'Guidance' not 'GUIDANCE' — Tailwind uppercase is CSS-only and does not affect accessible text
 - [Phase 04-instructions-page]: Deliverable 2 description and Dataset section wording adjusted to avoid duplicate getByText regex matches in InstructionsPage tests — minimal change, semantic meaning preserved
+- [Phase 04-instructions-page]: Pure Server Component with no 'use client' for InstructionsPage — no interactivity required; simpler rendering path
 
 ### Pending Todos
 
@@ -104,6 +106,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-04T16:47:15.426Z
-Stopped at: Completed 04-instructions-page-02-PLAN.md — awaiting human-verify checkpoint
-Resume file: None
+Last session: 2026-03-04T17:50:46.935Z
+Stopped at: Phase 5 context gathered
+Resume file: .planning/phases/05-rubric-page/05-CONTEXT.md
