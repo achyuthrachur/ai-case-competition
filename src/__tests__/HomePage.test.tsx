@@ -1,6 +1,6 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import { vi, describe, it, expect } from 'vitest';
-import HomePage from '@/app/page';
+import HomePage from '@/app/home/page';
 
 // Mock @/components/ui/blur-text — renders text as h1 stub; onClick proxies onAnimationComplete
 // so tests can simulate animation completion without GSAP/jsdom conflicts

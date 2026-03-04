@@ -23,7 +23,7 @@ interface NavItem {
 }
 
 const NAV_ITEMS: NavItem[] = [
-  { href: '/', label: 'Home', Icon: Home },
+  { href: '/home', label: 'Home', Icon: Home },
   { href: '/instructions', label: 'Instructions', Icon: Document },
   { href: '/rubric', label: 'Rubric', Icon: Judge },
   { href: '/downloads', label: 'Downloads', Icon: FolderOpen },
@@ -31,7 +31,7 @@ const NAV_ITEMS: NavItem[] = [
 ];
 
 function isActive(pathname: string, href: string): boolean {
-  if (href === '/') return pathname === '/';
+  if (href === '/home') return pathname === '/home';
   return pathname.startsWith(href);
 }
 
@@ -50,7 +50,7 @@ export function Navbar() {
       <div className="flex h-full items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Wordmark — left */}
         <Link
-          href="/"
+          href="/home"
           className="text-sm font-semibold text-[#f6f7fa] hover:text-crowe-amber transition-colors duration-150 truncate max-w-[240px] sm:max-w-none"
         >
           Meridian Financial — AI Case Competition
