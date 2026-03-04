@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 03-home-page/03-01-PLAN.md
-last_updated: "2026-03-04T15:16:52.288Z"
+stopped_at: "Checkpoint: 03-home-page/03-02-PLAN.md awaiting human visual verification"
+last_updated: "2026-03-04T15:23:23.499Z"
 last_activity: 2026-03-04 — Phase 2 Plan 01 complete — Vitest + React Testing Library test infrastructure installed; 9 failing Navbar tests written (TDD RED state)
 progress:
   total_phases: 10
-  completed_phases: 2
+  completed_phases: 3
   total_plans: 6
-  completed_plans: 5
+  completed_plans: 6
   percent: 30
 ---
 
@@ -55,6 +55,7 @@ Progress: [███░░░░░░░] 30%
 | Phase 02-navigation-layout P01 | 4 | 2 tasks | 4 files |
 | Phase 02-navigation-layout P02 | 20 | 3 tasks | 7 files |
 | Phase 03-home-page P01 | 2 | 1 tasks | 1 files |
+| Phase 03-home-page P02 | 5 | 1 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -81,6 +82,8 @@ Recent decisions affecting current work:
 - [Phase 02-navigation-layout]: data-testid='mobile-nav-link' added to mobile Link elements for clean test isolation without relying on shared label text
 - [Phase 03-home-page]: BlurText mock uses onClick to proxy onAnimationComplete — allows opacity transition state testing without GSAP in jsdom
 - [Phase 03-home-page]: Animation state testing pattern: mock animation component with onClick proxy; fireEvent.click simulates onAnimationComplete
+- [Phase 03-home-page]: Blurb text uses 'a regional bank' instead of 'Meridian Financial' to avoid getByText collision in Test 1
+- [Phase 03-home-page]: opacity-0/opacity-100 toggle (not conditional rendering) for layout-stable blurb visibility
 
 ### Pending Todos
 
@@ -93,6 +96,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-04T15:16:52.270Z
-Stopped at: Completed 03-home-page/03-01-PLAN.md
+Last session: 2026-03-04T15:23:23.488Z
+Stopped at: Checkpoint: 03-home-page/03-02-PLAN.md awaiting human visual verification
 Resume file: None
