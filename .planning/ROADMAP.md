@@ -118,7 +118,10 @@ Plans:
   2. A POST with a missing required field, wrong file type, or oversized file returns a non-200 JSON response with an actionable error message
   3. Both uploaded files appear in the Vercel Blob store at the correct path pattern (`submissions/{sanitized-name}-{timestamp}/`)
   4. The `BLOB_READ_WRITE_TOKEN` is only accessed inside the route handler and is never included in any client-side bundle
-**Plans**: TBD
+**Plans**: 1 plan
+
+Plans:
+- [ ] 08-01-PLAN.md — Implement POST /api/submit route handler with validation and Vercel Blob uploads (Wave 1)
 
 ### Phase 9: Submission Form
 **Goal**: Participants can submit their HTML dashboard and memo through a polished drag-and-drop form and receive confirmation that their submission was received.
@@ -158,6 +161,6 @@ Note: Phases 3, 4, 5, and 6 all depend on Phase 2 (navbar/layout) but are otherw
 | 5. Rubric Page | 2/2 | Complete | 2026-03-04 |
 | 6. Downloads Page + Static Files | 2/2 | Complete   | 2026-03-04 |
 | 7. Dataset Generation | 2/2 | Complete   | 2026-03-04 |
-| 8. API Route | 0/TBD | Not started | - |
+| 8. API Route | 0/1 | Not started | - |
 | 9. Submission Form | 0/TBD | Not started | - |
 | 10. Deployment & Docs | 0/TBD | Not started | - |
