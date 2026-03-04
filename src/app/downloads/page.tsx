@@ -3,8 +3,8 @@ import { DownloadCard } from '@/components/DownloadCard';
 const DOWNLOAD_CARDS = [
   {
     fileName: 'transactions.csv',
-    description: 'Synthetic transaction records for Meridian Financial. ~500–1,000 rows. Anomalies pre-labeled.',
-    fileSize: '~150 KB',
+    description: 'Synthetic transaction records for Meridian Financial. ~75,000 rows. Anomalies pre-labeled.',
+    fileSize: '~10–12 MB',
     href: '/transactions.csv',
   },
   {

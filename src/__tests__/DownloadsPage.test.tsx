@@ -33,7 +33,7 @@ describe('DownloadsPage', () => {
   it('renders transactions.csv description and size', () => {
     render(<DownloadsPage />);
     expect(screen.getByText(/Synthetic transaction records/i)).toBeInTheDocument();
-    expect(screen.getByText('~150 KB')).toBeInTheDocument();
+    expect(screen.getByText('~10\u201312 MB')).toBeInTheDocument();
   });
 
   // DL-02 + DL-03: data_dictionary.md and setup_guide.md both show '< 5 KB'
