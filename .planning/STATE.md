@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 02-navigation-layout 02-02-PLAN.md
-last_updated: "2026-03-04T14:21:41.008Z"
+stopped_at: Completed 03-home-page/03-01-PLAN.md
+last_updated: "2026-03-04T15:16:52.288Z"
 last_activity: 2026-03-04 — Phase 2 Plan 01 complete — Vitest + React Testing Library test infrastructure installed; 9 failing Navbar tests written (TDD RED state)
 progress:
   total_phases: 10
   completed_phases: 2
-  total_plans: 4
-  completed_plans: 4
+  total_plans: 6
+  completed_plans: 5
   percent: 30
 ---
 
@@ -54,6 +54,7 @@ Progress: [███░░░░░░░] 30%
 | Phase 01-foundation P02 | 3 | 3 tasks | 5 files |
 | Phase 02-navigation-layout P01 | 4 | 2 tasks | 4 files |
 | Phase 02-navigation-layout P02 | 20 | 3 tasks | 7 files |
+| Phase 03-home-page P01 | 2 | 1 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -78,6 +79,8 @@ Recent decisions affecting current work:
 - [Phase 02-navigation-layout]: HambergerMenu (not HamburgerMenu) — intentional typo in iconsax-react@0.0.8; must use exact package export name
 - [Phase 02-navigation-layout]: border-b-2 must be present on ALL nav links (transparent when inactive) to prevent 2px layout shift on activation
 - [Phase 02-navigation-layout]: data-testid='mobile-nav-link' added to mobile Link elements for clean test isolation without relying on shared label text
+- [Phase 03-home-page]: BlurText mock uses onClick to proxy onAnimationComplete — allows opacity transition state testing without GSAP in jsdom
+- [Phase 03-home-page]: Animation state testing pattern: mock animation component with onClick proxy; fireEvent.click simulates onAnimationComplete
 
 ### Pending Todos
 
@@ -90,6 +93,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-04T03:41:30.922Z
-Stopped at: Completed 02-navigation-layout 02-02-PLAN.md
+Last session: 2026-03-04T15:16:52.270Z
+Stopped at: Completed 03-home-page/03-01-PLAN.md
 Resume file: None

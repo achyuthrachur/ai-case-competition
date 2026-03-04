@@ -60,12 +60,16 @@ Plans:
 **Goal**: The landing page communicates the competition at a glance and routes participants to the right section immediately.
 **Depends on**: Phase 2
 **Requirements**: HOME-01, HOME-02, HOME-03, HOME-04
-**Plans**: TBD
+**Plans**: 2 plans
 **Success Criteria** (what must be TRUE):
   1. The hero headline "Meridian Financial — AI Case Competition" displays with a React Bits animated text effect on page load
   2. The 1–2 sentence competition blurb appears below the headline
   3. Four quick-link cards (Instructions, Rubric, Downloads, Submit) are visible and each navigates to the correct route when clicked
   4. A key dates section is visible with "Competition Opens: TBD" and "Submission Deadline: TBD" placeholder values
+
+Plans:
+- [ ] 03-01-PLAN.md — Write failing HomePage test suite covering HOME-01 through HOME-04 (TDD RED state)
+- [ ] 03-02-PLAN.md — Implement src/app/page.tsx: hero + cards + key dates (TDD GREEN + human verify)
 
 ### Phase 4: Instructions Page
 **Goal**: Participants can read the full case brief and understand exactly what to build and submit.
@@ -153,7 +157,7 @@ Note: Phases 3, 4, 5, and 6 all depend on Phase 2 (navbar/layout) but are otherw
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | Complete   | 2026-03-04 |
 | 2. Navigation & Layout | 2/2 | Complete   | 2026-03-04 |
-| 3. Home Page | 0/TBD | Not started | - |
+| 3. Home Page | 1/2 | In Progress|  |
 | 4. Instructions Page | 0/TBD | Not started | - |
 | 5. Rubric Page | 0/TBD | Not started | - |
 | 6. Downloads Page + Static Files | 0/TBD | Not started | - |

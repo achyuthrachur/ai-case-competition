@@ -22,10 +22,10 @@
 
 ### Home Page
 
-- [ ] **HOME-01**: Full-width hero section with React Bits animated text effect on the headline "Meridian Financial — AI Case Competition"
-- [ ] **HOME-02**: 1–2 sentence competition blurb below the headline
-- [ ] **HOME-03**: 4 quick-link cards (21st.dev components) for Instructions, Rubric, Downloads, and Submit — each with an Iconsax icon
-- [ ] **HOME-04**: Key dates section with placeholder values (Competition Opens: TBD, Submission Deadline: TBD)
+- [x] **HOME-01**: Full-width hero section with React Bits animated text effect on the headline "Meridian Financial — AI Case Competition"
+- [x] **HOME-02**: 1–2 sentence competition blurb below the headline
+- [x] **HOME-03**: 4 quick-link cards (21st.dev components) for Instructions, Rubric, Downloads, and Submit — each with an Iconsax icon
+- [x] **HOME-04**: Key dates section with placeholder values (Competition Opens: TBD, Submission Deadline: TBD)
 
 ### Instructions Page
 
@@ -136,10 +136,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | NAV-02 | Phase 2: Navigation & Layout | Complete |
 | NAV-03 | Phase 2: Navigation & Layout | Complete |
 | NAV-04 | Phase 2: Navigation & Layout | Complete |
-| HOME-01 | Phase 3: Home Page | Pending |
-| HOME-02 | Phase 3: Home Page | Pending |
-| HOME-03 | Phase 3: Home Page | Pending |
-| HOME-04 | Phase 3: Home Page | Pending |
+| HOME-01 | Phase 3: Home Page | Complete |
+| HOME-02 | Phase 3: Home Page | Complete |
+| HOME-03 | Phase 3: Home Page | Complete |
+| HOME-04 | Phase 3: Home Page | Complete |
 | INST-01 | Phase 4: Instructions Page | Pending |
 | INST-02 | Phase 4: Instructions Page | Pending |
 | INST-03 | Phase 4: Instructions Page | Pending |
