@@ -37,13 +37,13 @@
 
 ### Rubric Page
 
-- [ ] **RUB-01**: Four scoring categories displayed with visual weight indicators:
+- [x] **RUB-01**: Four scoring categories displayed with visual weight indicators:
   - Data Analysis Depth — 40%
   - Dashboard UI Quality — 35%
   - Memo Quality — 15%
   - Extra Credit — up to 15%
-- [ ] **RUB-02**: "What We're Looking For" description for each category
-- [ ] **RUB-03**: Grading Notes rendered as a styled callout block
+- [x] **RUB-02**: "What We're Looking For" description for each category
+- [x] **RUB-03**: Grading Notes rendered as a styled callout block
 
 ### Downloads Page
 
@@ -145,9 +145,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 | INST-03 | Phase 4: Instructions Page | Complete |
 | INST-04 | Phase 4: Instructions Page | Complete |
 | INST-05 | Phase 4: Instructions Page | Complete |
-| RUB-01 | Phase 5: Rubric Page | Pending |
-| RUB-02 | Phase 5: Rubric Page | Pending |
-| RUB-03 | Phase 5: Rubric Page | Pending |
+| RUB-01 | Phase 5: Rubric Page | Complete |
+| RUB-02 | Phase 5: Rubric Page | Complete |
+| RUB-03 | Phase 5: Rubric Page | Complete |
 | DL-01 | Phase 6: Downloads Page + Static Files | Pending |
 | DL-02 | Phase 6: Downloads Page + Static Files | Pending |
 | DL-03 | Phase 6: Downloads Page + Static Files | Pending |
