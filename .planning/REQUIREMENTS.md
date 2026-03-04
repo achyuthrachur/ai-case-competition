@@ -85,8 +85,8 @@
 
 ### Static Files
 
-- [ ] **STATIC-01**: `public/data_dictionary.md` with full column descriptions per spec (served via `/public` CDN)
-- [ ] **STATIC-02**: `public/setup_guide.md` with participant environment setup steps per spec (served via `/public` CDN)
+- [x] **STATIC-01**: `public/data_dictionary.md` with full column descriptions per spec (served via `/public` CDN)
+- [x] **STATIC-02**: `public/setup_guide.md` with participant environment setup steps per spec (served via `/public` CDN)
 
 ### Deployment & Docs
 
@@ -152,8 +152,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | DL-02 | Phase 6: Downloads Page + Static Files | Complete |
 | DL-03 | Phase 6: Downloads Page + Static Files | Complete |
 | DL-04 | Phase 6: Downloads Page + Static Files | Complete |
-| STATIC-01 | Phase 6: Downloads Page + Static Files | Pending |
-| STATIC-02 | Phase 6: Downloads Page + Static Files | Pending |
+| STATIC-01 | Phase 6: Downloads Page + Static Files | Complete |
+| STATIC-02 | Phase 6: Downloads Page + Static Files | Complete |
 | DATA-01 | Phase 7: Dataset Generation | Pending |
 | DATA-02 | Phase 7: Dataset Generation | Pending |
 | DATA-03 | Phase 7: Dataset Generation | Pending |

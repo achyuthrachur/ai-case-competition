@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 06-downloads-page-static-files 06-01-PLAN.md
-last_updated: "2026-03-04T20:22:31.966Z"
+stopped_at: Completed 06-downloads-page-static-files 06-02-PLAN.md
+last_updated: "2026-03-04T20:29:51.004Z"
 last_activity: 2026-03-04 — Phase 4 complete — InstructionsPage implemented as pure Server Component with full case brief content; all INST-01..05 tests passing
 progress:
   total_phases: 10
-  completed_phases: 5
+  completed_phases: 6
   total_plans: 12
-  completed_plans: 11
+  completed_plans: 12
   percent: 30
 ---
 
@@ -63,6 +63,7 @@ Progress: [███░░░░░░░] 30%
 | Phase 05-rubric-page P01 | 6 | 1 tasks | 1 files |
 | Phase 05-rubric-page P02 | 10 | 2 tasks | 1 files |
 | Phase 06-downloads-page-static-files P01 | 2 | 1 tasks | 2 files |
+| Phase 06-downloads-page-static-files P02 | 6 | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -103,6 +104,8 @@ Recent decisions affecting current work:
 - [Phase 06-downloads-page-static-files]: DownloadCard stub renders basic semantic elements so tests compile; Plan 02 replaces with full Crowe-branded implementation
 - [Phase 06-downloads-page-static-files]: Test 6 uses getAllByText('< 5 KB') asserting length 2 — both data_dictionary.md and setup_guide.md share identical file size string
 - [Phase 06-downloads-page-static-files]: Map href array from getAllByRole results to assert multiple link hrefs without ambiguity error
+- [Phase 06-downloads-page-static-files]: transactions.csv href wired to /transactions.csv without disabled/coming-soon state — Phase 7 will create the file; locked decision per CONTEXT.md
+- [Phase 06-downloads-page-static-files]: DOWNLOAD_CARDS as-const array pattern for declarative card data — avoids JSX repetition, single-location content updates
 
 ### Pending Todos
 
@@ -115,6 +118,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-04T20:22:31.949Z
-Stopped at: Completed 06-downloads-page-static-files 06-01-PLAN.md
+Last session: 2026-03-04T20:29:50.976Z
+Stopped at: Completed 06-downloads-page-static-files 06-02-PLAN.md
 Resume file: None
