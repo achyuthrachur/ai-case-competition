@@ -47,10 +47,10 @@
 
 ### Downloads Page
 
-- [ ] **DL-01**: Styled download card for `transactions.csv` (name, description, ~150 KB size, download button)
-- [ ] **DL-02**: Styled download card for `data_dictionary.md` (name, description, < 5 KB size, download button)
-- [ ] **DL-03**: Styled download card for `setup_guide.md` (name, description, < 5 KB size, download button)
-- [ ] **DL-04**: Each card uses Iconsax `DocumentDownload` icon; files served from `/public` via `<a href="..." download>`
+- [x] **DL-01**: Styled download card for `transactions.csv` (name, description, ~150 KB size, download button)
+- [x] **DL-02**: Styled download card for `data_dictionary.md` (name, description, < 5 KB size, download button)
+- [x] **DL-03**: Styled download card for `setup_guide.md` (name, description, < 5 KB size, download button)
+- [x] **DL-04**: Each card uses Iconsax `DocumentDownload` icon; files served from `/public` via `<a href="..." download>`
 
 ### Submission Form
 
@@ -148,10 +148,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | RUB-01 | Phase 5: Rubric Page | Complete |
 | RUB-02 | Phase 5: Rubric Page | Complete |
 | RUB-03 | Phase 5: Rubric Page | Complete |
-| DL-01 | Phase 6: Downloads Page + Static Files | Pending |
-| DL-02 | Phase 6: Downloads Page + Static Files | Pending |
-| DL-03 | Phase 6: Downloads Page + Static Files | Pending |
-| DL-04 | Phase 6: Downloads Page + Static Files | Pending |
+| DL-01 | Phase 6: Downloads Page + Static Files | Complete |
+| DL-02 | Phase 6: Downloads Page + Static Files | Complete |
+| DL-03 | Phase 6: Downloads Page + Static Files | Complete |
+| DL-04 | Phase 6: Downloads Page + Static Files | Complete |
 | STATIC-01 | Phase 6: Downloads Page + Static Files | Pending |
 | STATIC-02 | Phase 6: Downloads Page + Static Files | Pending |
 | DATA-01 | Phase 7: Dataset Generation | Pending |

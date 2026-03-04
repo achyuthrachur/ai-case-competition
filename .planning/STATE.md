@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Phase 6 context gathered
-last_updated: "2026-03-04T19:54:58.843Z"
+stopped_at: Completed 06-downloads-page-static-files 06-01-PLAN.md
+last_updated: "2026-03-04T20:22:31.966Z"
 last_activity: 2026-03-04 — Phase 4 complete — InstructionsPage implemented as pure Server Component with full case brief content; all INST-01..05 tests passing
 progress:
   total_phases: 10
   completed_phases: 5
-  total_plans: 10
-  completed_plans: 10
+  total_plans: 12
+  completed_plans: 11
   percent: 30
 ---
 
@@ -62,6 +62,7 @@ Progress: [███░░░░░░░] 30%
 | Phase 04-instructions-page P02 | 7 | 2 tasks | 1 files |
 | Phase 05-rubric-page P01 | 6 | 1 tasks | 1 files |
 | Phase 05-rubric-page P02 | 10 | 2 tasks | 1 files |
+| Phase 06-downloads-page-static-files P01 | 2 | 1 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -99,6 +100,9 @@ Recent decisions affecting current work:
 - [Phase 05-rubric-page]: RubricPage test mirrors InstructionsPage pattern exactly: no vi.mock(), no beforeEach, pure render-and-assert
 - [Phase 05-rubric-page]: 15% collision safety: Memo Quality renders '15%'; Extra Credit renders 'up to 15%' — getByText exact match distinguishes them
 - [Phase 05-rubric-page]: Hardcoded literal w-[40%]/w-[35%]/w-[15%] class strings required for Tailwind JIT scanner to compile arbitrary width utilities
+- [Phase 06-downloads-page-static-files]: DownloadCard stub renders basic semantic elements so tests compile; Plan 02 replaces with full Crowe-branded implementation
+- [Phase 06-downloads-page-static-files]: Test 6 uses getAllByText('< 5 KB') asserting length 2 — both data_dictionary.md and setup_guide.md share identical file size string
+- [Phase 06-downloads-page-static-files]: Map href array from getAllByRole results to assert multiple link hrefs without ambiguity error
 
 ### Pending Todos
 
@@ -111,6 +115,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-04T19:54:58.829Z
-Stopped at: Phase 6 context gathered
-Resume file: .planning/phases/06-downloads-page-static-files/06-CONTEXT.md
+Last session: 2026-03-04T20:22:31.949Z
+Stopped at: Completed 06-downloads-page-static-files 06-01-PLAN.md
+Resume file: None

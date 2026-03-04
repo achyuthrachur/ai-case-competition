@@ -152,7 +152,7 @@ Note: Phases 3, 4, 5, and 6 all depend on Phase 2 (navbar/layout) but are otherw
 | 3. Home Page | 2/2 | Complete | 2026-03-03 |
 | 4. Instructions Page | 2/2 | Complete | 2026-03-04 |
 | 5. Rubric Page | 2/2 | Complete | 2026-03-04 |
-| 6. Downloads Page + Static Files | 0/2 | Not started | - |
+| 6. Downloads Page + Static Files | 1/2 | In Progress|  |
 | 7. Dataset Generation | 0/TBD | Not started | - |
 | 8. API Route | 0/TBD | Not started | - |
 | 9. Submission Form | 0/TBD | Not started | - |
