@@ -45,12 +45,16 @@ Plans:
 **Goal**: Every page in the app shares a persistent, functional navbar so navigation works before any page content is built.
 **Depends on**: Phase 1
 **Requirements**: NAV-01, NAV-02, NAV-03, NAV-04
-**Plans**: TBD
+**Plans**: 2 plans
 **Success Criteria** (what must be TRUE):
   1. The "Meridian Financial — AI Case Competition" wordmark is visible at the top-left of every page
   2. All five nav links (Home, Instructions, Rubric, Downloads, Submit) are visible with their Iconsax icons on desktop
   3. The active page's nav link is visually highlighted when that route is active
   4. On a mobile viewport, the nav links collapse behind a hamburger icon that opens and closes them on tap
+
+Plans:
+- [ ] 02-01-PLAN.md — Install Vitest test infrastructure and create failing Navbar test suite (Wave 0 RED state)
+- [ ] 02-02-PLAN.md — Build Navbar.tsx client component, update root layout, create 4 stub route pages (GREEN state + human verify)
 
 ### Phase 3: Home Page
 **Goal**: The landing page communicates the competition at a glance and routes participants to the right section immediately.
@@ -148,7 +152,7 @@ Note: Phases 3, 4, 5, and 6 all depend on Phase 2 (navbar/layout) but are otherw
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | Complete   | 2026-03-04 |
-| 2. Navigation & Layout | 0/TBD | Not started | - |
+| 2. Navigation & Layout | 0/2 | Not started | - |
 | 3. Home Page | 0/TBD | Not started | - |
 | 4. Instructions Page | 0/TBD | Not started | - |
 | 5. Rubric Page | 0/TBD | Not started | - |
