@@ -18,7 +18,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 4: Instructions Page** - Long-form case brief with section headings, numbered lists, and callout block
 - [x] **Phase 5: Rubric Page** - Scored breakdown with category cards and grading notes callout
 - [x] **Phase 6: Downloads Page + Static Files** - Download cards with Iconsax icons and the three public files they link to (completed 2026-03-04)
-- [ ] **Phase 7: Dataset Generation** - Node.js script that produces the 50k–100k row synthetic transaction CSV
+- [x] **Phase 7: Dataset Generation** - Node.js script that produces the 50k–100k row synthetic transaction CSV (completed 2026-03-04)
 - [ ] **Phase 8: API Route** - POST /api/submit handler with validation, Vercel Blob uploads, and JSON response
 - [ ] **Phase 9: Submission Form** - Drag-and-drop form with loading state, confirmation screen, and error handling
 - [ ] **Phase 10: Deployment & Docs** - README, vercel.json security headers, and GitHub Actions CI/CD workflows
@@ -157,7 +157,7 @@ Note: Phases 3, 4, 5, and 6 all depend on Phase 2 (navbar/layout) but are otherw
 | 4. Instructions Page | 2/2 | Complete | 2026-03-04 |
 | 5. Rubric Page | 2/2 | Complete | 2026-03-04 |
 | 6. Downloads Page + Static Files | 2/2 | Complete   | 2026-03-04 |
-| 7. Dataset Generation | 1/2 | In Progress|  |
+| 7. Dataset Generation | 2/2 | Complete   | 2026-03-04 |
 | 8. API Route | 0/TBD | Not started | - |
 | 9. Submission Form | 0/TBD | Not started | - |
 | 10. Deployment & Docs | 0/TBD | Not started | - |

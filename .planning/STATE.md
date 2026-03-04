@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 07-dataset-generation 07-01-PLAN.md
-last_updated: "2026-03-04T21:11:25.106Z"
+stopped_at: Completed 07-dataset-generation 07-02-PLAN.md
+last_updated: "2026-03-04T21:17:24.327Z"
 last_activity: 2026-03-04 — Phase 4 complete — InstructionsPage implemented as pure Server Component with full case brief content; all INST-01..05 tests passing
 progress:
   total_phases: 10
-  completed_phases: 6
+  completed_phases: 7
   total_plans: 14
-  completed_plans: 13
+  completed_plans: 14
   percent: 30
 ---
 
@@ -65,6 +65,7 @@ Progress: [███░░░░░░░] 30%
 | Phase 06-downloads-page-static-files P01 | 2 | 1 tasks | 2 files |
 | Phase 06-downloads-page-static-files P02 | 6 | 2 tasks | 4 files |
 | Phase 07-dataset-generation P01 | 6 | 2 tasks | 2 files |
+| Phase 07-dataset-generation P02 | 5 | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -110,6 +111,8 @@ Recent decisions affecting current work:
 - [Phase 07-dataset-generation]: Test file is .js not .ts — generate-dataset.js is plain JS; no TypeScript overhead needed
 - [Phase 07-dataset-generation]: Set-based assertion for DATA-04a instead of regex — covers ACC-101..ACC-120 correctly including ACC-120
 - [Phase 07-dataset-generation]: beforeAll timeout 120,000ms to accommodate 5-30s CSV generation runtime for 75k rows
+- [Phase 07-dataset-generation]: Single-pass CSV build: build full string in memory, write once — no appendFileSync loop
+- [Phase 07-dataset-generation]: DownloadsPage test stale '~150 KB' assertion updated to '~10-12 MB' to match new file size
 
 ### Pending Todos
 
@@ -122,6 +125,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-04T21:11:25.098Z
-Stopped at: Completed 07-dataset-generation 07-01-PLAN.md
+Last session: 2026-03-04T21:17:24.321Z
+Stopped at: Completed 07-dataset-generation 07-02-PLAN.md
 Resume file: None
