@@ -15,7 +15,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 1: Foundation** - Project scaffold, dependencies, design tokens, and environment files (completed 2026-03-04)
 - [x] **Phase 2: Navigation & Layout** - Persistent top navbar with Iconsax icons, active-tab highlighting, mobile hamburger, and root layout (completed 2026-03-04)
 - [x] **Phase 3: Home Page** - Animated hero, quick-link cards, and key dates section (completed 2026-03-04)
-- [ ] **Phase 4: Instructions Page** - Long-form case brief with section headings, numbered lists, and callout block
+- [x] **Phase 4: Instructions Page** - Long-form case brief with section headings, numbered lists, and callout block (completed 2026-03-04)
 - [ ] **Phase 5: Rubric Page** - Scored breakdown with category cards and grading notes callout
 - [ ] **Phase 6: Downloads Page + Static Files** - Download cards with Iconsax icons and the three public files they link to
 - [ ] **Phase 7: Dataset Generation** - Node.js script that produces the 50k–100k row synthetic transaction CSV
@@ -162,7 +162,7 @@ Note: Phases 3, 4, 5, and 6 all depend on Phase 2 (navbar/layout) but are otherw
 | 1. Foundation | 2/2 | Complete   | 2026-03-04 |
 | 2. Navigation & Layout | 2/2 | Complete   | 2026-03-04 |
 | 3. Home Page | 2/2 | Complete   | 2026-03-04 |
-| 4. Instructions Page | 1/2 | In Progress|  |
+| 4. Instructions Page | 2/2 | Complete   | 2026-03-04 |
 | 5. Rubric Page | 0/TBD | Not started | - |
 | 6. Downloads Page + Static Files | 0/TBD | Not started | - |
 | 7. Dataset Generation | 0/TBD | Not started | - |
