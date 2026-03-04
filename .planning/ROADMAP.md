@@ -13,7 +13,7 @@ Build a Next.js 14 portal that gives competition participants everything they ne
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation** - Project scaffold, dependencies, design tokens, and environment files (completed 2026-03-04)
-- [ ] **Phase 2: Navigation & Layout** - Persistent top navbar with Iconsax icons, active-tab highlighting, mobile hamburger, and root layout
+- [x] **Phase 2: Navigation & Layout** - Persistent top navbar with Iconsax icons, active-tab highlighting, mobile hamburger, and root layout (completed 2026-03-04)
 - [ ] **Phase 3: Home Page** - Animated hero, quick-link cards, and key dates section
 - [ ] **Phase 4: Instructions Page** - Long-form case brief with section headings, numbered lists, and callout block
 - [ ] **Phase 5: Rubric Page** - Scored breakdown with category cards and grading notes callout
@@ -152,7 +152,7 @@ Note: Phases 3, 4, 5, and 6 all depend on Phase 2 (navbar/layout) but are otherw
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | Complete   | 2026-03-04 |
-| 2. Navigation & Layout | 1/2 | In Progress|  |
+| 2. Navigation & Layout | 2/2 | Complete   | 2026-03-04 |
 | 3. Home Page | 0/TBD | Not started | - |
 | 4. Instructions Page | 0/TBD | Not started | - |
 | 5. Rubric Page | 0/TBD | Not started | - |

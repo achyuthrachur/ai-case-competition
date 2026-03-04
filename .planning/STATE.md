@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 02-navigation-layout 02-01-PLAN.md
-last_updated: "2026-03-04T03:03:30Z"
-last_activity: 2026-03-04 — Phase 2 Plan 01 complete — Vitest test infrastructure + 9 failing Navbar tests (TDD RED state)
+stopped_at: Completed 02-navigation-layout 02-02-PLAN.md
+last_updated: "2026-03-04T03:41:30.938Z"
+last_activity: 2026-03-04 — Phase 2 Plan 01 complete — Vitest + React Testing Library test infrastructure installed; 9 failing Navbar tests written (TDD RED state)
 progress:
   total_phases: 10
-  completed_phases: 1
-  total_plans: 3
-  completed_plans: 3
+  completed_phases: 2
+  total_plans: 4
+  completed_plans: 4
   percent: 30
 ---
 
@@ -53,6 +53,7 @@ Progress: [███░░░░░░░] 30%
 | Phase 01-foundation P01 | 19 | 3 tasks | 16 files |
 | Phase 01-foundation P02 | 3 | 3 tasks | 5 files |
 | Phase 02-navigation-layout P01 | 4 | 2 tasks | 4 files |
+| Phase 02-navigation-layout P02 | 20 | 3 tasks | 7 files |
 
 ## Accumulated Context
 
@@ -74,6 +75,9 @@ Recent decisions affecting current work:
 - [Phase 02-navigation-layout P01]: vitest.config.ts @/* alias uses path.resolve(__dirname, './src') to match tsconfig.json — required for Vite to resolve same paths as tsc
 - [Phase 02-navigation-layout P01]: Mobile menu close-on-link-click test uses close button as proxy — desktop/mobile links share text; Plan 02 may add data-testid='mobile-nav-link' for cleaner isolation
 - [Phase 02-navigation-layout P01]: typecheck exits with 1 expected error (TS2307 missing Navbar module) in Wave 0 — resolves when Plan 02 creates Navbar.tsx
+- [Phase 02-navigation-layout]: HambergerMenu (not HamburgerMenu) — intentional typo in iconsax-react@0.0.8; must use exact package export name
+- [Phase 02-navigation-layout]: border-b-2 must be present on ALL nav links (transparent when inactive) to prevent 2px layout shift on activation
+- [Phase 02-navigation-layout]: data-testid='mobile-nav-link' added to mobile Link elements for clean test isolation without relying on shared label text
 
 ### Pending Todos
 
@@ -86,6 +90,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-04T03:03:30Z
-Stopped at: Completed 02-navigation-layout 02-01-PLAN.md
-Resume file: .planning/phases/02-navigation-layout/02-02-PLAN.md
+Last session: 2026-03-04T03:41:30.922Z
+Stopped at: Completed 02-navigation-layout 02-02-PLAN.md
+Resume file: None
