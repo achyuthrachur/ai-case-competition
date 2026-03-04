@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 03-home-page/03-02-PLAN.md
-last_updated: "2026-03-04T16:00:07.274Z"
+stopped_at: Completed 04-instructions-page-01-PLAN.md
+last_updated: "2026-03-04T16:38:41.925Z"
 last_activity: 2026-03-04 — Phase 2 Plan 01 complete — Vitest + React Testing Library test infrastructure installed; 9 failing Navbar tests written (TDD RED state)
 progress:
   total_phases: 10
   completed_phases: 3
-  total_plans: 6
-  completed_plans: 6
+  total_plans: 8
+  completed_plans: 7
   percent: 30
 ---
 
@@ -57,6 +57,7 @@ Progress: [███░░░░░░░] 30%
 | Phase 03-home-page P01 | 2 | 1 tasks | 1 files |
 | Phase 03-home-page P02 | 5 | 1 tasks | 1 files |
 | Phase 03-home-page P02 | 5 | 2 tasks | 1 files |
+| Phase 04-instructions-page P01 | 3 | 1 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -87,6 +88,8 @@ Recent decisions affecting current work:
 - [Phase 03-home-page]: opacity-0/opacity-100 toggle (not conditional rendering) for layout-stable blurb visibility
 - [Phase 03-home-page]: opacity-0/opacity-100 toggle for blurb (not conditional rendering) — layout-stable animation reveal pattern
 - [Phase 03-home-page]: Full-width breakout via -mx-4 sm:-mx-6 lg:-mx-8 with inner max-w-4xl mx-auto px-4 for hero/key-dates sections
+- [Phase 04-instructions-page]: No mocks needed: InstructionsPage is a pure Server Component with no hooks, router, animations, or icons
+- [Phase 04-instructions-page]: Guidance callout test asserts DOM text 'Guidance' not 'GUIDANCE' — Tailwind uppercase is CSS-only and does not affect accessible text
 
 ### Pending Todos
 
@@ -99,6 +102,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-04T15:46:35.378Z
-Stopped at: Completed 03-home-page/03-02-PLAN.md
+Last session: 2026-03-04T16:38:41.846Z
+Stopped at: Completed 04-instructions-page-01-PLAN.md
 Resume file: None

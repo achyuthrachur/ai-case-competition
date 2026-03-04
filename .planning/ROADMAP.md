@@ -162,7 +162,7 @@ Note: Phases 3, 4, 5, and 6 all depend on Phase 2 (navbar/layout) but are otherw
 | 1. Foundation | 2/2 | Complete   | 2026-03-04 |
 | 2. Navigation & Layout | 2/2 | Complete   | 2026-03-04 |
 | 3. Home Page | 2/2 | Complete   | 2026-03-04 |
-| 4. Instructions Page | 0/2 | Not started | - |
+| 4. Instructions Page | 1/2 | In Progress|  |
 | 5. Rubric Page | 0/TBD | Not started | - |
 | 6. Downloads Page + Static Files | 0/TBD | Not started | - |
 | 7. Dataset Generation | 0/TBD | Not started | - |

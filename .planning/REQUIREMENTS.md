@@ -29,11 +29,11 @@
 
 ### Instructions Page
 
-- [ ] **INST-01**: "Background" section rendered with heading and paragraph text
-- [ ] **INST-02**: "Your Dataset" section rendered
-- [ ] **INST-03**: "Your Deliverables" section with numbered list (HTML Dashboard, 2-page Memo)
-- [ ] **INST-04**: "Tools You Should Use" and "What You Do NOT Need to Do" sections
-- [ ] **INST-05**: "Guidance" section rendered as a styled callout/quote block
+- [x] **INST-01**: "Background" section rendered with heading and paragraph text
+- [x] **INST-02**: "Your Dataset" section rendered
+- [x] **INST-03**: "Your Deliverables" section with numbered list (HTML Dashboard, 2-page Memo)
+- [x] **INST-04**: "Tools You Should Use" and "What You Do NOT Need to Do" sections
+- [x] **INST-05**: "Guidance" section rendered as a styled callout/quote block
 
 ### Rubric Page
 
@@ -140,11 +140,11 @@ Which phases cover which requirements. Updated during roadmap creation.
 | HOME-02 | Phase 3: Home Page | Complete |
 | HOME-03 | Phase 3: Home Page | Complete |
 | HOME-04 | Phase 3: Home Page | Complete |
-| INST-01 | Phase 4: Instructions Page | Pending |
-| INST-02 | Phase 4: Instructions Page | Pending |
-| INST-03 | Phase 4: Instructions Page | Pending |
-| INST-04 | Phase 4: Instructions Page | Pending |
-| INST-05 | Phase 4: Instructions Page | Pending |
+| INST-01 | Phase 4: Instructions Page | Complete |
+| INST-02 | Phase 4: Instructions Page | Complete |
+| INST-03 | Phase 4: Instructions Page | Complete |
+| INST-04 | Phase 4: Instructions Page | Complete |
+| INST-05 | Phase 4: Instructions Page | Complete |
 | RUB-01 | Phase 5: Rubric Page | Pending |
 | RUB-02 | Phase 5: Rubric Page | Pending |
 | RUB-03 | Phase 5: Rubric Page | Pending |
