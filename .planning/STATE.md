@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Phase 8 context gathered
-last_updated: "2026-03-04T21:32:28.954Z"
+stopped_at: 08-01 Task 1 complete — awaiting human-verify checkpoint for POST /api/submit curl tests
+last_updated: "2026-03-04T21:54:15.708Z"
 last_activity: 2026-03-04 — Phase 4 complete — InstructionsPage implemented as pure Server Component with full case brief content; all INST-01..05 tests passing
 progress:
   total_phases: 10
-  completed_phases: 7
-  total_plans: 14
-  completed_plans: 14
+  completed_phases: 8
+  total_plans: 15
+  completed_plans: 15
   percent: 30
 ---
 
@@ -113,6 +113,7 @@ Recent decisions affecting current work:
 - [Phase 07-dataset-generation]: beforeAll timeout 120,000ms to accommodate 5-30s CSV generation runtime for 75k rows
 - [Phase 07-dataset-generation]: Single-pass CSV build: build full string in memory, write once — no appendFileSync loop
 - [Phase 07-dataset-generation]: DownloadsPage test stale '~150 KB' assertion updated to '~10-12 MB' to match new file size
+- [Phase 08-api-route]: Import from @vercel/blob root (not /client) to keep BLOB_READ_WRITE_TOKEN server-only; Promise.all parallel uploads; field validation before file validation
 
 ### Pending Todos
 
@@ -125,6 +126,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-04T21:32:28.938Z
-Stopped at: Phase 8 context gathered
-Resume file: .planning/phases/08-api-route/08-CONTEXT.md
+Last session: 2026-03-04T21:54:02.462Z
+Stopped at: 08-01 Task 1 complete — awaiting human-verify checkpoint for POST /api/submit curl tests
+Resume file: None
