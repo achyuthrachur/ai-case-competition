@@ -88,7 +88,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. Each card shows the file name, description, and approximate file size
   3. Clicking the download button on any card triggers a file download via the browser's native download behavior
   4. `public/data_dictionary.md` and `public/setup_guide.md` are present and contain the full column and setup content per spec
-**Plans**: TBD
+**Plans**: 2 plans
+
+Plans:
+- [ ] 06-01-PLAN.md — Write failing DownloadsPage test suite and DownloadCard stub (Wave 0 / RED state)
+- [ ] 06-02-PLAN.md — Implement DownloadCard, DownloadsPage, and static markdown files (Wave 1 / GREEN state)
 
 ### Phase 7: Dataset Generation
 **Goal**: The synthetic transaction dataset exists in `/public`, is large enough for meaningful analysis, and follows the full 12-column spec with realistic anomaly distribution.
@@ -148,7 +152,7 @@ Note: Phases 3, 4, 5, and 6 all depend on Phase 2 (navbar/layout) but are otherw
 | 3. Home Page | 2/2 | Complete | 2026-03-03 |
 | 4. Instructions Page | 2/2 | Complete | 2026-03-04 |
 | 5. Rubric Page | 2/2 | Complete | 2026-03-04 |
-| 6. Downloads Page + Static Files | 0/TBD | Not started | - |
+| 6. Downloads Page + Static Files | 0/2 | Not started | - |
 | 7. Dataset Generation | 0/TBD | Not started | - |
 | 8. API Route | 0/TBD | Not started | - |
 | 9. Submission Form | 0/TBD | Not started | - |
