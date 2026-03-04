@@ -4,10 +4,10 @@ milestone: v1.0
 milestone_name: milestone
 status: planning
 stopped_at: Completed 05-rubric-page-02-PLAN.md
-last_updated: "2026-03-04T19:34:29.583Z"
+last_updated: "2026-03-04T19:43:09.141Z"
 last_activity: 2026-03-04 — Phase 4 complete — InstructionsPage implemented as pure Server Component with full case brief content; all INST-01..05 tests passing
 progress:
-  total_phases: 5
+  total_phases: 10
   completed_phases: 5
   total_plans: 10
   completed_plans: 10
