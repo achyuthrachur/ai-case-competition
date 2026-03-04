@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 01-foundation-01-PLAN.md — Next.js 15.5.12 scaffolded with Tailwind v3, shadcn@2.3.0, 5 primitives, BlurText, and FOUND-02 smoke test
-last_updated: "2026-03-03T23:54:16.370Z"
+stopped_at: Completed 01-foundation-02-PLAN.md — Crowe brand tokens wired into Tailwind v3 and shadcn with passing build and typecheck
+last_updated: "2026-03-04T00:00:41.949Z"
 last_activity: 2026-03-03 — Roadmap created; all 10 phases defined with success criteria and full requirement coverage
 progress:
   total_phases: 10
-  completed_phases: 0
+  completed_phases: 1
   total_plans: 2
-  completed_plans: 1
+  completed_plans: 2
   percent: 50
 ---
 
@@ -51,6 +51,7 @@ Progress: [█████░░░░░] 50%
 
 *Updated after each plan completion*
 | Phase 01-foundation P01 | 19 | 3 tasks | 16 files |
+| Phase 01-foundation P02 | 3 | 3 tasks | 5 files |
 
 ## Accumulated Context
 
@@ -67,6 +68,8 @@ Recent decisions affecting current work:
 - [Phase 01-foundation]: Tailwind v4 downgraded to v3: create-next-app@15.5.12 installs Tailwind v4 by default but shadcn@2.3.0 requires v3 for HSL CSS variable compatibility
 - [Phase 01-foundation]: BlurText manually implemented: React Bits registry URL unavailable via corporate Crowe SSL proxy — implemented using same GSAP pattern from documentation
 - [Phase 01-foundation]: NODE_TLS_REJECT_UNAUTHORIZED=0 required for all shadcn CLI registry calls in Crowe network environment
+- [Phase 01-foundation]: tailwind.config.ts stripped to token-only config — removed shadcn default color extensions and tailwindcss-animate plugin; components use CSS variables from globals.css directly
+- [Phase 01-foundation]: Font applied via body inline style — no next/font/local since no licensed Helvetica Now .woff2 files; Arial/Helvetica Neue fallback stack used throughout
 
 ### Pending Todos
 
@@ -79,6 +82,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-03T23:54:16.365Z
-Stopped at: Completed 01-foundation-01-PLAN.md — Next.js 15.5.12 scaffolded with Tailwind v3, shadcn@2.3.0, 5 primitives, BlurText, and FOUND-02 smoke test
+Last session: 2026-03-04T00:00:41.945Z
+Stopped at: Completed 01-foundation-02-PLAN.md — Crowe brand tokens wired into Tailwind v3 and shadcn with passing build and typecheck
 Resume file: None

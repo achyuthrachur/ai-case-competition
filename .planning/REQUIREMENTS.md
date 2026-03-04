@@ -9,9 +9,9 @@
 
 - [x] **FOUND-01**: Next.js 14+ App Router project initialized with TypeScript, Tailwind CSS, and shadcn/ui
 - [x] **FOUND-02**: Dependencies installed: `react-dropzone`, `@vercel/blob`, `iconsax-react`, React Bits
-- [ ] **FOUND-03**: Crowe brand color tokens (Indigo + Amber palette) configured in `tailwind.config.ts` and `globals.css` — applied under Meridian Financial branding (no Crowe wordmarks)
-- [ ] **FOUND-04**: Helvetica Now font configured via `next/font/local` (with Arial/Helvetica Neue fallback stack if unlicensed)
-- [ ] **FOUND-05**: `.env.local` and `.env.example` present with `BLOB_READ_WRITE_TOKEN` variable
+- [x] **FOUND-03**: Crowe brand color tokens (Indigo + Amber palette) configured in `tailwind.config.ts` and `globals.css` — applied under Meridian Financial branding (no Crowe wordmarks)
+- [x] **FOUND-04**: Helvetica Now font configured via `next/font/local` (with Arial/Helvetica Neue fallback stack if unlicensed)
+- [x] **FOUND-05**: `.env.local` and `.env.example` present with `BLOB_READ_WRITE_TOKEN` variable
 
 ### Navigation
 
@@ -129,9 +129,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 |-------------|-------|--------|
 | FOUND-01 | Phase 1: Foundation | Complete |
 | FOUND-02 | Phase 1: Foundation | Complete |
-| FOUND-03 | Phase 1: Foundation | Pending |
-| FOUND-04 | Phase 1: Foundation | Pending |
-| FOUND-05 | Phase 1: Foundation | Pending |
+| FOUND-03 | Phase 1: Foundation | Complete |
+| FOUND-04 | Phase 1: Foundation | Complete |
+| FOUND-05 | Phase 1: Foundation | Complete |
 | NAV-01 | Phase 2: Navigation & Layout | Pending |
 | NAV-02 | Phase 2: Navigation & Layout | Pending |
 | NAV-03 | Phase 2: Navigation & Layout | Pending |
