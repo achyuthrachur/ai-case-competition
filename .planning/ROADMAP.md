@@ -152,7 +152,7 @@ Note: Phases 3, 4, 5, and 6 all depend on Phase 2 (navbar/layout) but are otherw
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | Complete   | 2026-03-04 |
-| 2. Navigation & Layout | 0/2 | Not started | - |
+| 2. Navigation & Layout | 1/2 | In Progress|  |
 | 3. Home Page | 0/TBD | Not started | - |
 | 4. Instructions Page | 0/TBD | Not started | - |
 | 5. Rubric Page | 0/TBD | Not started | - |

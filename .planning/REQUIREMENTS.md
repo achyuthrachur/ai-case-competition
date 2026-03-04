@@ -15,10 +15,10 @@
 
 ### Navigation
 
-- [ ] **NAV-01**: Persistent top navbar with "Meridian Financial — AI Case Competition" wordmark (left) and nav links (right)
-- [ ] **NAV-02**: Nav links: Home, Instructions, Rubric, Downloads, Submit — each with an Iconsax icon (Home, Document, Judge, FolderOpen, Send)
-- [ ] **NAV-03**: Active tab highlighted based on current route
-- [ ] **NAV-04**: Mobile hamburger menu collapses nav links on small screens
+- [x] **NAV-01**: Persistent top navbar with "Meridian Financial — AI Case Competition" wordmark (left) and nav links (right)
+- [x] **NAV-02**: Nav links: Home, Instructions, Rubric, Downloads, Submit — each with an Iconsax icon (Home, Document, Judge, FolderOpen, Send)
+- [x] **NAV-03**: Active tab highlighted based on current route
+- [x] **NAV-04**: Mobile hamburger menu collapses nav links on small screens
 
 ### Home Page
 
@@ -132,10 +132,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | FOUND-03 | Phase 1: Foundation | Complete |
 | FOUND-04 | Phase 1: Foundation | Complete |
 | FOUND-05 | Phase 1: Foundation | Complete |
-| NAV-01 | Phase 2: Navigation & Layout | Pending |
-| NAV-02 | Phase 2: Navigation & Layout | Pending |
-| NAV-03 | Phase 2: Navigation & Layout | Pending |
-| NAV-04 | Phase 2: Navigation & Layout | Pending |
+| NAV-01 | Phase 2: Navigation & Layout | Complete |
+| NAV-02 | Phase 2: Navigation & Layout | Complete |
+| NAV-03 | Phase 2: Navigation & Layout | Complete |
+| NAV-04 | Phase 2: Navigation & Layout | Complete |
 | HOME-01 | Phase 3: Home Page | Pending |
 | HOME-02 | Phase 3: Home Page | Pending |
 | HOME-03 | Phase 3: Home Page | Pending |
