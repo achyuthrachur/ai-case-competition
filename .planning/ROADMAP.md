@@ -103,7 +103,11 @@ Plans:
   2. The CSV contains between 50,000 and 100,000 rows and all 12 required columns with correct data types and formats
   3. Approximately 10% of rows have `is_anomalous = True`; the five anomaly types (amount spike, high-risk jurisdiction, structuring, dormant account, frequency spike) are all represented
   4. The dataset uses exactly 20 unique fictional accounts with consistent `account_name`, `account_id`, and `historical_avg_amount` per transaction type across all rows
-**Plans**: TBD
+**Plans**: 2 plans
+
+Plans:
+- [ ] 07-01-PLAN.md — Create scripts/ directory and failing integration test suite (Wave 1 / RED state)
+- [ ] 07-02-PLAN.md — Implement generate-dataset.js and update Downloads page size string (Wave 2 / GREEN state)
 
 ### Phase 8: API Route
 **Goal**: File submissions can be received, validated, and stored in Vercel Blob via a working API endpoint — independently of any UI.
@@ -153,7 +157,7 @@ Note: Phases 3, 4, 5, and 6 all depend on Phase 2 (navbar/layout) but are otherw
 | 4. Instructions Page | 2/2 | Complete | 2026-03-04 |
 | 5. Rubric Page | 2/2 | Complete | 2026-03-04 |
 | 6. Downloads Page + Static Files | 2/2 | Complete   | 2026-03-04 |
-| 7. Dataset Generation | 0/TBD | Not started | - |
+| 7. Dataset Generation | 0/2 | Not started | - |
 | 8. API Route | 0/TBD | Not started | - |
 | 9. Submission Form | 0/TBD | Not started | - |
 | 10. Deployment & Docs | 0/TBD | Not started | - |
