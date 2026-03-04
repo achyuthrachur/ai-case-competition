@@ -73,15 +73,15 @@
 
 ### Dataset Generation
 
-- [ ] **DATA-01**: `scripts/generate-dataset.js` Node.js script produces `public/transactions.csv` when run with `node scripts/generate-dataset.js`
-- [ ] **DATA-02**: Dataset contains 50,000–100,000 rows with all 12 columns: `transaction_id`, `transaction_date`, `account_id`, `account_name`, `transaction_type`, `amount`, `counterparty_name`, `counterparty_country`, `historical_avg_amount`, `monthly_transaction_count`, `is_anomalous`, `anomaly_notes`
-- [ ] **DATA-03**: ~10% of rows flagged as anomalous; 5 anomaly types evenly distributed:
+- [x] **DATA-01**: `scripts/generate-dataset.js` Node.js script produces `public/transactions.csv` when run with `node scripts/generate-dataset.js`
+- [x] **DATA-02**: Dataset contains 50,000–100,000 rows with all 12 columns: `transaction_id`, `transaction_date`, `account_id`, `account_name`, `transaction_type`, `amount`, `counterparty_name`, `counterparty_country`, `historical_avg_amount`, `monthly_transaction_count`, `is_anomalous`, `anomaly_notes`
+- [x] **DATA-03**: ~10% of rows flagged as anomalous; 5 anomaly types evenly distributed:
   1. Large amount spike (5x–10x historical avg)
   2. High-risk jurisdiction (sanctioned countries)
   3. Structuring pattern (multiple transactions just under $10,000)
   4. Dormant account activity (no activity for 6+ months, then sudden transactions)
   5. Frequency spike (8x–12x historical monthly count)
-- [ ] **DATA-04**: 20 unique fictional accounts with consistent `account_name`, `account_id`, and `historical_avg_amount` per transaction type
+- [x] **DATA-04**: 20 unique fictional accounts with consistent `account_name`, `account_id`, and `historical_avg_amount` per transaction type
 
 ### Static Files
 
@@ -154,10 +154,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | DL-04 | Phase 6: Downloads Page + Static Files | Complete |
 | STATIC-01 | Phase 6: Downloads Page + Static Files | Complete |
 | STATIC-02 | Phase 6: Downloads Page + Static Files | Complete |
-| DATA-01 | Phase 7: Dataset Generation | Pending |
-| DATA-02 | Phase 7: Dataset Generation | Pending |
-| DATA-03 | Phase 7: Dataset Generation | Pending |
-| DATA-04 | Phase 7: Dataset Generation | Pending |
+| DATA-01 | Phase 7: Dataset Generation | Complete |
+| DATA-02 | Phase 7: Dataset Generation | Complete |
+| DATA-03 | Phase 7: Dataset Generation | Complete |
+| DATA-04 | Phase 7: Dataset Generation | Complete |
 | API-01 | Phase 8: API Route | Pending |
 | API-02 | Phase 8: API Route | Pending |
 | API-03 | Phase 8: API Route | Pending |
