@@ -34,7 +34,10 @@ export default function LandingPage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-crowe-indigo-dark flex flex-col -mx-4 sm:-mx-6 lg:-mx-8 -mt-16">
+    <div
+      className="min-h-screen bg-crowe-indigo-dark flex flex-col -mt-16"
+      style={{ width: '100vw', marginLeft: 'calc(50% - 50vw)' }}
+    >
       {/* ── HERO ─────────────────────────────────────────────── */}
       <main className="flex-1 flex flex-col items-center justify-center text-center px-6 py-24">
 
