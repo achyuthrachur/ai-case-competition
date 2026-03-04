@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 05-rubric-page-01-PLAN.md
-last_updated: "2026-03-04T19:24:21.145Z"
+stopped_at: Completed 05-rubric-page-02-PLAN.md
+last_updated: "2026-03-04T19:34:29.583Z"
 last_activity: 2026-03-04 — Phase 4 complete — InstructionsPage implemented as pure Server Component with full case brief content; all INST-01..05 tests passing
 progress:
   total_phases: 5
-  completed_phases: 4
+  completed_phases: 5
   total_plans: 10
-  completed_plans: 9
+  completed_plans: 10
   percent: 30
 ---
 
@@ -61,6 +61,7 @@ Progress: [███░░░░░░░] 30%
 | Phase 04-instructions-page P02 | 7 | 1 tasks | 1 files |
 | Phase 04-instructions-page P02 | 7 | 2 tasks | 1 files |
 | Phase 05-rubric-page P01 | 6 | 1 tasks | 1 files |
+| Phase 05-rubric-page P02 | 10 | 2 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -97,6 +98,7 @@ Recent decisions affecting current work:
 - [Phase 04-instructions-page]: Pure Server Component with no 'use client' for InstructionsPage — no interactivity required; simpler rendering path
 - [Phase 05-rubric-page]: RubricPage test mirrors InstructionsPage pattern exactly: no vi.mock(), no beforeEach, pure render-and-assert
 - [Phase 05-rubric-page]: 15% collision safety: Memo Quality renders '15%'; Extra Credit renders 'up to 15%' — getByText exact match distinguishes them
+- [Phase 05-rubric-page]: Hardcoded literal w-[40%]/w-[35%]/w-[15%] class strings required for Tailwind JIT scanner to compile arbitrary width utilities
 
 ### Pending Todos
 
@@ -109,6 +111,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-04T19:24:21.136Z
-Stopped at: Completed 05-rubric-page-01-PLAN.md
+Last session: 2026-03-04T19:34:29.572Z
+Stopped at: Completed 05-rubric-page-02-PLAN.md
 Resume file: None
