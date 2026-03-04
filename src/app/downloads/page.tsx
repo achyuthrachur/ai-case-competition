@@ -15,7 +15,7 @@ const DOWNLOAD_CARDS = [
   },
   {
     fileName: 'setup_guide.md',
-    description: 'Step-by-step instructions for setting up VS Code and Cursor before you start.',
+    description: 'Step-by-step instructions for setting up VS Code and AI tools before you start.',
     fileSize: '< 5 KB',
     href: '/setup_guide.md',
   },

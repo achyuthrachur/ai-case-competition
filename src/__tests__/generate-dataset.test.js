@@ -10,14 +10,23 @@ const CSV_PATH = join(PROJECT_ROOT, 'public/transactions.csv');
 const EXPECTED_HEADERS = [
   'transaction_id',
   'transaction_date',
+  'transaction_hour',
   'account_id',
   'account_name',
+  'account_type',
+  'account_region',
+  'account_risk_tier',
+  'account_tenure_years',
   'transaction_type',
+  'transaction_channel',
+  'transaction_reference',
   'amount',
   'counterparty_name',
   'counterparty_country',
+  'counterparty_type',
   'historical_avg_amount',
   'monthly_transaction_count',
+  'prior_year_avg_monthly_count',
   'is_anomalous',
   'anomaly_notes',
 ];
@@ -66,7 +75,7 @@ describe('DATA-01: CSV file output', () => {
 });
 
 describe('DATA-02: CSV structure and format', () => {
-  it('DATA-02a: header row contains exactly 12 columns in the correct order', () => {
+  it('DATA-02a: header row contains exactly 21 columns in the correct order', () => {
     expect(headers).toEqual(EXPECTED_HEADERS);
   });
 

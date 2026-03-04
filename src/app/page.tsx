@@ -69,7 +69,7 @@ export default function HomePage() {
           {CARDS.map(({ href, Icon, title, description }) => (
             <Link key={href} href={href} className="block group">
               <div className="bg-white shadow-crowe-card rounded-xl p-6 h-full hover:-translate-y-1 hover:shadow-amber-glow transition-all duration-200">
-                <Icon variant="Bold" size={48} className="text-crowe-indigo-dark mb-4" />
+                <Icon variant="Bold" size={48} color="#011E41" className="mb-4" />
                 <h3 className="text-base font-semibold text-crowe-indigo-dark">{title}</h3>
                 <p className="text-sm text-tint-700 mt-1 leading-snug">{description}</p>
               </div>
@@ -88,7 +88,7 @@ export default function HomePage() {
               { label: 'Submission Deadline', value: 'TBD' },
             ].map(({ label, value }) => (
               <div key={label} className="flex items-center gap-3">
-                <Calendar variant="Linear" size={24} className="text-crowe-indigo-dark flex-shrink-0" />
+                <Calendar variant="Linear" size={24} color="#011E41" className="flex-shrink-0" />
                 <div className="text-left">
                   <p className="text-sm font-medium text-crowe-indigo-dark">{label}</p>
                   <p className="text-sm text-tint-700">{value}</p>
