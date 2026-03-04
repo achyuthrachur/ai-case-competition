@@ -75,11 +75,15 @@ Plans:
 **Goal**: Participants can read the full case brief and understand exactly what to build and submit.
 **Depends on**: Phase 2
 **Requirements**: INST-01, INST-02, INST-03, INST-04, INST-05
-**Plans**: TBD
+**Plans**: 2 plans
 **Success Criteria** (what must be TRUE):
   1. The "Background", "Your Dataset", "Your Deliverables", "Tools You Should Use", and "What You Do NOT Need to Do" sections are all rendered with distinct headings
   2. "Your Deliverables" shows a numbered list with HTML Dashboard and 2-Page Memo as separate items
   3. The "Guidance" section is rendered as a visually distinct callout or quote block (not plain paragraph text)
+
+Plans:
+- [ ] 04-01-PLAN.md — Write failing InstructionsPage test suite covering INST-01 through INST-05 (TDD RED state)
+- [ ] 04-02-PLAN.md — Implement src/app/instructions/page.tsx: full case brief content with branded styling (TDD GREEN + human verify)
 
 ### Phase 5: Rubric Page
 **Goal**: Participants can see exactly how their submission will be graded, including category weights and qualitative notes.
@@ -158,7 +162,7 @@ Note: Phases 3, 4, 5, and 6 all depend on Phase 2 (navbar/layout) but are otherw
 | 1. Foundation | 2/2 | Complete   | 2026-03-04 |
 | 2. Navigation & Layout | 2/2 | Complete   | 2026-03-04 |
 | 3. Home Page | 2/2 | Complete   | 2026-03-04 |
-| 4. Instructions Page | 0/TBD | Not started | - |
+| 4. Instructions Page | 0/2 | Not started | - |
 | 5. Rubric Page | 0/TBD | Not started | - |
 | 6. Downloads Page + Static Files | 0/TBD | Not started | - |
 | 7. Dataset Generation | 0/TBD | Not started | - |
